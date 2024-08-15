@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between text-white p-24 text-center">
-      <h1 className="text-3xl font-bold">Welcome to the <br/><span className="text-6xl font-extrabold bg-clip-text text-transparent bg-[length:200%_auto] bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] animate-gradient">AskThisWebsite</span> app</h1>
+      <h1 className="text-xl md:text-3xl font-bold">Welcome to the <br/><span className="text-3xl font-extrabold bg-clip-text text-transparent bg-[length:200%_auto] bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] animate-gradient md:text-6xl">AskThisWebsite</span> app</h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-6 w-full max-w-md">
         <label className="text-xl font-semibold">
